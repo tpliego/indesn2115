@@ -1,24 +1,28 @@
 		
-		body {background-color: lightblue;}
+		body {background-color: pink;}
 		
-		h1 {font-family: arial;
-			color: blue;}
+		h1 {font-family: times;
+			color: yellow;}
 		
 		p {font-size: 20px;
+			font-family: monospace;
+			line-height: 15px;
+			color: white ; }
+
+		ol {font-size: 20px;
 			font-family: times;
 			line-height: 26px;
-			color: gray ;
-			border-style: dotted;}
-
-		ol {font-size: 14px;
-			font-family: helvetica;
-			line-height: 26px;
-			color: white;}
+			color: black;
+			border-style: solid;}
 
 		ul {font-size: 14px;
 			font-family: helvetica;
 			line-height: 26px;
-			color: white;}
+			color: white;
+			border-style: dotted;}
 
 		h2 {font-family: helvetica, sans-serif;
 			color: blue; }
+
+		b {color: yellow;}
+		i{ color: blue}
