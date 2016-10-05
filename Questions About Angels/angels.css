@@ -1,0 +1,35 @@
+h1 {font-family: Georgia, serif;
+font-size: 25px;
+}
+h2 {font-family: Georgia, serif;
+font-size: 15px;
+text-transform: uppercase;
+}
+h3 {font-family: Verdana; 
+text-transform: uppercase;
+color: gray;
+/*visibility: hidden;*/
+display: none;
+}
+
+p.green {color: green;
+font-family: helvetica;
+}
+
+p.blue {color: blue;
+font-family: Georgia, serif;
+}
+ 		
+p.pink {color: magenta;
+font-family: Courier, monospace;
+}
+
+
+
+
+
+p.pink, p.blue, p.green {color: black}
+
+
+
+
