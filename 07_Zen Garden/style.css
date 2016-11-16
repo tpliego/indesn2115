@@ -1,0 +1,94 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+
+	margin: auto;
+	padding: auto;
+	background-image: url("Pup.jpg");
+	background-repeat: no-repeat;
+	/*background-position: center top;*/
+	background-size:cover;
+	background-attachment: fixed;
+
+	}
+
+body {
+	columns: 100px 2;
+	font: 75% helvetica, sans-serif;
+	line-height: 1.88889;
+	color: #000;
+	margin: 100px 200px 900px 200px;
+	padding: 0;
+	width: 800px;
+
+	}
+
+p {
+
+	margin-top: 0;
+	padding: 0px 5px 0px 5px;
+	/*text-align: justify;*/
+	/*background-color: hsla(176, 100%, 100%, .50);*/
+
+	}
+
+h1 {font-size: 80px;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: -3.350px;
+	column-span: all;
+	text-align: center;
+	}
+
+h2 {font-size: 30px;
+	color: #B7A5DF;
+	column-span: all;
+	text-align: center;
+	}
+
+h3 {
+	font: italic normal 25px "Times New Roman", Times, serif;;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 0;
+	color: #000;
+	}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #B7A5DF;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+aside.sidebar {
+	margin-left: 800px;
+	position: absolute;
+	float: right;
+	clear: both;
+	width: 200px;
+}
+
+div.page-wrapper {
+	background-color: hsla(176, 100%, 100%, .50);
+
+}
